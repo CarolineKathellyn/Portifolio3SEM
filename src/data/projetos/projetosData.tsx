@@ -2,6 +2,8 @@ import imageVendas from '../../../public/images/IHM.png';
 import API2 from '../../../public/images/api-2.png';
 import API1 from '../../../public/images/api-1.png';
 import API3 from '../../../public/images/api-3.png';
+import API4 from '../../../public/images/api-4.png';
+
 import { Project } from '../interfaces/projetosInterface';
 
 export const projects: Project[] = [
@@ -48,6 +50,18 @@ export const projects: Project[] = [
     softskills: "SoftSkills: Este projeto pessoal exigiu alto grau de autonomia, pensamento analítico e capacidade de resolver problemas complexos. Trabalhei o foco em resultados, mantendo uma abordagem iterativa e testando melhorias constantemente com base em dados reais. Desenvolvi também uma melhor capacidade de planejamento e auto-organização, essenciais para gerenciar um projeto extenso com múltiplas tecnologias. Além disso, refinei minha comunicação técnica ao documentar claramente o raciocínio do modelo e ao compartilhar o progresso e insights em plataformas como GitHub.",
     technologies: ['Python', 'Flask', 'LangChain', 'Pandas', 'OpenAI', 'Qdrant', 'MySQL', 'NLP'],
     link: 'https://github.com/FabioHiros/bertoti'
+  },
+  {
+    
+    title: 'API 4° Semestre -  Sistema de Coleta de Dados Meteorológico em Tempo Real',
+    image: API4.src,
+    category: 'FATEC Prof. Jessen Vidal - Parceiro Acadêmico Tecsus',
+    details: "No segundo semestre de 2025 participei do desenvolvimento de um Sistema de Coleta de Dados Meteorológico em Tempo Real em parceria com a empresa Tecsus. O sistema com foco na prevenção de riscos e desastres naturais. A plataforma visa centralizar e analisar informações, como índices de chuva, captadas por uma rede de sensores de baixo custo. Será incluso um modelo dinâmico para a aceitação de diversos tipos de estações, facilitando a obtenção de dados oriundos de diversas fontes. As informações serão exibidas em um painel de controle moderno e intuitivo, enquanto um sistema de notificações proativo alertará os usuários sobre potenciais riscos, como inundações e deslizamentos. O sistema também incluirá um espaço de conteúdo educacional, expondo de forma clara a lógica utilizada pelo sistema para captação de dados e informações estimadas.",
+    contribution: "Contribuição: Atuei principalmente na área de backend e banco de dados. Desenvolvi a modelagem e estrutura inicial do banco, implementando uma arquitetura de persistência híbrida (MongoDB e PostgreSQL), o que permitiu flexibilidade e desempenho conforme os diferentes módulos do sistema. Trabalhei lado a lado com outro desenvolvedor na construção do sistema de autenticação usando JWT tokens e cookies com Spring Security, além de contribuir com a lógica de negócios para o espelho de ponto e o gerenciamento de férias e feriados recorrentes. Também fui responsável por otimizações e manutenção contínua do banco de dados ao longo do projeto. Durante as sprints, ajudei outros integrantes da equipe a resolverem problemas de integração com o banco e de conexão entre o frontend e o backend, especialmente em etapas críticas de entrega. Na fase final, colaborei com o time de frontend na correção de falhas e bugs, garantindo melhor performance e usabilidade.",
+    hardskills: 'HardSkills:Arduino,node, React, TypeScript, AWS (Data Storage), MySQL, MongoDB, RESTful APIs, Arquitetura de Microsserviços',
+    softskills: "SoftSkills: No início do projeto, enfrentei dificuldades de comunicação com a equipe, especialmente em relação ao andamento das entregas e alinhamento de tasks,e para resolver isso procurei perguntar mais e resolucionar as duvidas,durante dailys com a equipe em geral, ou individualmente com o Scrum master durante desenvolvimento do projeto.Consegui aprimorar minha gestão de tempo,pois assim que começou a sprint me senti um pouco atrasada em relação aos outros integrantes,de forma que fiz uma lista de prioridades,e de tempo de entrega para cumprir as tasks, e auxiliar outros colegas em problemas tecnicos.Procurei sanar minhas duvidas com a minha equipe de processos que eu não conhecia. Ao final, desenvolvi uma postura mais colaborativa e proativa,e  melhorando a conexão com a equipe e o Scrum Master, e contribuindo de forma efetiva para o sucesso coletivo do projeto.",
+    technologies: ['', 'Spring Boot', 'React', 'TypeScript', 'AWS', 'PostGreSQL', 'MongoDB', 'RESTful APIs', 'Microservices Architecture'],
+    link: 'https://github.com/Equipe-Skyfall/skytrack'
   }
 ];
 
