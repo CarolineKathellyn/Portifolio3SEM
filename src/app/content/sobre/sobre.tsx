@@ -10,7 +10,7 @@ export default function Sobre() {
         <div className="relative w-full max-w-md rounded-full overflow-hidden sm:w-80 sm:h-80 sm:mr-8 order-2 sm:order-1">
           <img
             src={FotoKathellyn.src}
-            alt="Profile Picture"
+            alt="Foto de Kathellyn Caroline"
             width={500}
             height={500}
             className="w-full h-full object-cover hover:grayscale transition-all duration-300"
